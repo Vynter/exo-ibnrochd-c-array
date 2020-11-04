@@ -1,15 +1,14 @@
 #include<stdio.h>
 int main() {
 int array[9];
-int bin[8]={128,64,32,16,8,4,2,1};
+
 int val;
 int rez;
 int b=128;
 int loop=1;
+char choice;
 
 
-while(loop==1)
-{
     while(1){
 
 
@@ -18,6 +17,8 @@ while(loop==1)
         if(val>0 && val<256){
         array[0]=val;
         rez=val;
+        
+        printf("La conversion de la valeur %d en binaire donne : ",array[0]);
         for (int i = 1; i < 9; i++)
         {
             
@@ -38,16 +39,9 @@ while(loop==1)
             printf("valeur hors interval");
         }
          printf("\n");
-        // while(choice!="O" || choice!="N" ){
-        // printf("Voulez vous continuer? O/N\n");
-        // scanf(" %c",&choice);
-        // if(choice == "N"){
-        //     loop=0;
-        // }
-        // }
 
     }
-}
+
     
 return 0;
 }

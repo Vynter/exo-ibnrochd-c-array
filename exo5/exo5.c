@@ -2,7 +2,7 @@
 int main() {
 int min;    
 int array[10];
-// petit au grand
+
 
 for(int i=0; i<10; i++){
     printf("Veuillez saisir la valeur N %d\n",i+1);

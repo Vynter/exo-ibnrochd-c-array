@@ -21,8 +21,6 @@ for(int i=0; i<10; i++){
     }
 }
 
-
-
 int tab2[Pcount];
 int tab3[NPcount];
 
